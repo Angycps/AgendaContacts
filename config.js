@@ -1,5 +1,5 @@
 const PAGE_URL = process.env.NODE_ENV === 'production'
-? 'Placeholder'
+? 'http://localhost:3008'
 : 'http://localhost:3008';
 
 const MONGO_URI = process.env.NODE_ENV === 'production'

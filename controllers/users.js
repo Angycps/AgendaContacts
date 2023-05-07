@@ -34,6 +34,7 @@ usersRouter.post('/', async (request, response) => {
     });
 
     //Utilizando Nodemailer: (buscamos en su pag, los pasos)
+    // create reusable transporter object using the default SMTP transport
     //Para esto hay que buscar en internet el smtp default del correo que estamos usando, en este caso el de gmail
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com', 
