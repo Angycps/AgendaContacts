@@ -1,5 +1,5 @@
 const PAGE_URL = process.env.NODE_ENV === 'production'
-? 'http://localhost:3008'
+? 'https://contact-agenda.onrender.com/'
 : 'http://localhost:3008';
 
 const MONGO_URI = process.env.NODE_ENV === 'production'
