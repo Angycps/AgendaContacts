@@ -42,6 +42,7 @@ app.use('/components', express.static(path.resolve('views', 'components')));
 app.use('/verify/:id/:token', express.static(path.resolve('views', 'verify')));
 
 
+
 // //rutas backend:
 app.use('/api/users', usersRouter);
 // app.use('/api/resetPassword', resetPasswordRouter);
